@@ -2,25 +2,31 @@ class Main {
   public static void main(String[] args) {
      {
     //RECURSION IS CALLING A METHOD WITHIN ITSELF
-    int result = sum(10);
-    System.out.println(result);
+    int merchandiseY = sum(10);
+    System.out.println(merchandiseY);
 
-    int result1 = subtraction(10);
-    System.out.println(result1);
-
-    int result2 = division(10);
-    System.out.println(result2);
-
-    int result3 = multiplication(10);
-    System.out.println(result3);
     }
 
     
-    public static int merchandiseY(int x)
+    public static int merchandiseY(int merchY)
     {
       if (x == 1) return 1;
       else return x + merchandiseZ(x-1);
     }
+
+
+public static int merchandiseY(int merchY)
+  {
+if (merchandiseY > 0)
+  {
+    return subtract - subtraction(subtract - 1);
+  }else{
+    return 0;
+  }
+  }
+
+
+
 
     public static int exam1(int test1)
     {
