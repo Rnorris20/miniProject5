@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) 
   {
-    System.out.println("Good new years eve everyone, are you excited for the new year?");
-    Scanner scan = new Scanner(System.in);
-    System.out.println("");
-    String year = scan.next();
-      System.out.println("");
-      System.out.println("");
+    System.out.println("Good new years eve everyone, welcome to the annual countdown!");
+
+    Scanner scan = new Scanner(System.in);// inputing scanner system.
+
+    System.out.println("The clock is going to strike 12 in a couple seconds here, is everyone excited for the new year, this next year is going to be the year...");
+    int year = scan.next();
+      System.out.println("I'm your host Brad peterson bringing you the countdown to" + year);
+      System.out.println("Get excited for the new year in 11...");
       newYearsTimer(10);
   }
 
@@ -23,10 +25,8 @@ public class Main {
       }
     else{
       System.out.println(timerValue);
-      timerValue
+      timerValue--;
       newYearsTimer(timerValue);
         }
     }
   }
-}
-
