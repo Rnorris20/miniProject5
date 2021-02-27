@@ -1,39 +1,32 @@
-class Main {
-  public static void main(String[] args) {
-     {
-    //RECURSION IS CALLING A METHOD WITHIN ITSELF
-    int merchandiseY = sum(10);
-    System.out.println(merchandiseY);
+import java.util.Scanner;
 
-    }
-
-    
-    public static int merchandiseY(int merchY)
-    {
-      if (x == 1) return 1;
-      else return x + merchandiseZ(x-1);
-    }
-
-
-public static int merchandiseY(int merchY)
+public class Main {
+  public static void main(String[] args) 
   {
-if (merchandiseY > 0)
+    System.out.println("Good new years eve everyone, are you excited for the new year?");
+    Scanner scan = new Scanner(System.in);
+    System.out.println("");
+    String year = scan.next();
+      System.out.println("");
+      System.out.println("");
+      newYearsTimer(10);
+  }
+
+  public static void newYearsTimer(int timerValue)
   {
-    return subtract - subtraction(subtract - 1);
-  }else{
-    return 0;
-  }
-  }
-
-
-
-
-    public static int exam1(int test1)
-    {
-   if (test1 == 0) return 0;
-   else if (test1 == 1) return 2;
-   else return 2 + bunnyEars(test1 - 1);
+    if (timerValue == 1)
+      {
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+      }
+    else{
+      System.out.println(timerValue);
+      timerValue
+      newYearsTimer(timerValue);
+        }
     }
-
   }
+}
 
